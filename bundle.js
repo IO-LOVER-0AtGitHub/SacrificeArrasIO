@@ -3712,7 +3712,7 @@
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
                     "center"
                   );
-                if (z.name.includes("Dev⠀"))
+                if (z.name.includes("Seaguli"))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
@@ -3942,7 +3942,7 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("Dev⠀"))
+                  if (b.label.includes("Seaguli"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,
