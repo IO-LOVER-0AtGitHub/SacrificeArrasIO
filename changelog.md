@@ -1,4 +1,7 @@
 # Update
+- Made some well deserved server-side updates, they should help reduce lag.
+- Special thanks to z46-dev!
+# Update
 - Made some minor balance changes
 - Restricted the size command to sizes between 8-18
 - Ragnarok is now a spawnable boss 
