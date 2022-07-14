@@ -4749,7 +4749,7 @@
             id: "Glitch-Domination",
             type: "dominaton",
             code: "glitch-virginia-d",
-            at: p.glitch("jagged-petal-parenthesis")
+            at: p.glitch("subdued-ballistic-rifle")
             // featured: 1, // For Featured Status.
           },
           {
