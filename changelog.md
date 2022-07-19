@@ -1,4 +1,7 @@
 # Update
+- Removed splitter
+- yes that's it, we got an update after 5 months just to remove an op tank
+# Update
 - Made some well deserved server-side updates, they should help reduce lag.
 - Special thanks to z46-dev!
 # Update
