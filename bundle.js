@@ -4745,11 +4745,11 @@
             // featured: 1, // For Featured Status.
           },
           {
-            visible: 1,
-            id: "Glitch-Domination",
-            type: "dominaton",
-            code: "glitch-virginia-d",
-            at: p.glitch("subdued-ballistic-rifle")
+            visible: 0,
+            id: "Glitch-Maze",
+            type: "maze",
+            code: "glitch-virginia-m",
+            at: p.glitch("glitter-pewter-beast")
             // featured: 1, // For Featured Status.
           },
           {
