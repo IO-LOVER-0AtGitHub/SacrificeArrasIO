@@ -4587,7 +4587,7 @@
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
-        railway: a => `${a}.herokuapp.com`,
+        railway: a => `${a}.up.railway.app`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
       };
@@ -4670,7 +4670,7 @@
             z: "Private",
             local: "Local",
             dvi: "DVI",
-
+            railway: "Railway",
             os: "OpenShift",
             heroku: "Heroku",
             replit: "Repl.it",
@@ -4746,14 +4746,7 @@
             // featured: 1, // For Featured Status.
           },
           {
-            visible: 1,
-            id: "Glitch-Maze",
-            type: "maze",
-            code: "glitch-virginia-m",
-            at: p.glitch("glitter-pewter-beast")
-            // featured: 1, // For Featured Status.
-          },
-          {
+
                    visible: 1,
             id: "Glitch-Staging",
             type: "ffa",
@@ -4768,9 +4761,17 @@
             code: "heroku-virginia-x",
             at: p.heroku("arras-mayhem"),
              featured: 1, // For Featured Status.
+
           },
           {
-
+                        visible: 0,
+            id: "Railway-Event",
+            type: "4tdm",
+            code: "railway-oregon-x",
+            at: p.railway("arras"),
+            featured: 0, // For Featured Status.
+          },
+          {
             visible: 0,
             id: "Repl.it-Legacy",
             type: "legacy",
