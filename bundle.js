@@ -4773,7 +4773,7 @@
           },
           {
          
-            visible: 0,
+            visible: 1,
             id: "Repl.it-Legacy",
             type: "legacy",
             code: "replit-virginia-2",
