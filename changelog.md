@@ -1,3 +1,8 @@
+# The future of arras-mayhem
+- Hey, it's me, umineko, the developer of arras-mayhem. It's hard to believe that arras-mayhem is 2 and a half years old now! Thank you all for the experiences!
+- Heroku, the hosting provider for the servers is ceasing their free plan by the end of November 2022, which means that arras-mayhem will go down with it. 
+- In spite of this, I am seeking alternative hosting providers. I am also open to offers to purchase the game's code if you wish to continue hosting arras-mayhem. Please contact me at (SF) Seagull#2224
+- If you want to check out our other project, visit the link here -> https://umineko-chan.itch.io/
 # Update
 - Removed splitter
 - yes that's it, we got an update after 5 months just to remove an op tank

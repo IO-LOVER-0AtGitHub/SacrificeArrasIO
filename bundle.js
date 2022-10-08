@@ -4587,6 +4587,7 @@
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
+        railway: a => `${a}.herokuapp.com`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
       };
