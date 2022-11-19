@@ -4,7 +4,7 @@
 -The glitch server will remain up, but it’s quite laggy and a second event server hosted on Railway is already up and visible on www.arras-mayhem.glitch.me 
 -It has limited bandwidth so it will likely go down by mid-month, and will not be available until next month for each month.
 -To celebrate the life of arras-mayhem, I’m giving everyone Testbed level 2 on all the Heroku servers!
--Use the token goodbyearrasmayhem for testbed 2! It will be available until the 28th.
+-Use the token goodbyearrasmayhem for testbed 2! It's available on Heroku-FFA for now, and will become available for Heroku-4TDM on the 26th.
 
 
 -Thank you all for 2 and a half years of arras mayhem! If you want to check out the other project: https://umineko-chan.itch.io/
