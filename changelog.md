@@ -1,3 +1,13 @@
+# arras-mayhem is shutting down on November 28, 2022
+-Hey, so Heroku will be shutting down their free plan on November 28, 2022, and most servers will be taken down.
+-This is what I’ve come up with so that you guys can continue enjoying arras mayhem:
+-The glitch server will remain up, but it’s quite laggy and a second event server hosted on Railway is already up and visible on www.arras-mayhem.glitch.me 
+-It has limited bandwidth so it will likely go down by mid-month, and will not be available until next month for each month.
+-To celebrate the life of arras-mayhem, I’m giving everyone Testbed level 2 on all the Heroku servers!
+-Use the token goodbyearrasmayhem for testbed 2! It will be available until the 28th.
+
+
+-Thank you all for 2 and a half years of arras mayhem! If you want to check out the other project: https://umineko-chan.itch.io/
 # The future of arras-mayhem
 - Hey, it's me, umineko, the developer of arras-mayhem. It's hard to believe that arras-mayhem is 2 and a half years old now! Thank you all for the experiences!
 - Heroku, the hosting provider for the servers is ceasing their free plan by the end of November 2022, which means that arras-mayhem will go down with it. 
