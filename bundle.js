@@ -4736,6 +4736,14 @@
             at: p.railway("arras"),
             featured: 0, // For Featured Status.
           },
+                    {
+                           visible: 0,
+            id: "Render-4TDM",
+            type: "4tdm",
+            code: "render-singapore-4",
+            at: p.render("arras-mayhem"),
+            featured: 0, // For Featured Status.
+          },
           {
             visible: 0,
             id: "Heroku-FFA",
