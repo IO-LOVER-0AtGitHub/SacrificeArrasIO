@@ -4719,15 +4719,7 @@
         ],
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
-          {
-            visible: 0,
-            id: "Heroku-Beta",
-            type: "beta",
-            code: "heroku-frankfurt-4",
-            at: p.heroku("arrasdotio"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
+
           {
                            visible: 0,
             id: "Railway-Event",
@@ -4737,15 +4729,15 @@
             featured: 0, // For Featured Status.
           },
                     {
-                           visible: 1,
+                           visible: 0,
             id: "Render-4TDM",
             type: "4tdm",
-            code: "render-singapore-4",
-            at: p.render("arras-mayhem"),
+            code: "render-frankfurt-4",
+            at: p.render("arras-mayhem2"),
             featured: 0, // For Featured Status.
           },
           {
-            visible: 0,
+            visible: 1,
             id: "Heroku-FFA",
             type: "ffa",
             code: "heroku-frankfurt-f",
@@ -4771,7 +4763,7 @@
             // featured: 1, // For Featured Status.
           },
           {
-            visible: 0,
+            visible: 1,
             id: "Heroku-Event",
             type: "main",
             code: "heroku-virginia-x",
