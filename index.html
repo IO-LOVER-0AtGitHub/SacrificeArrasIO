@@ -1,42 +1,29 @@
-#optMobile {
-  display: none;
-}
-#optBorders {
-  width: 120px;
-}
-body.mobile #optColors {
-  width: 346px;
-  margin-bottom: 4px;
-}
-body.mobile #optMobile, body.mobile #optBorders {
-  width: 170px;
-  margin-bottom: 4px;
-  display: inline-block;
-}
-
-.slider {
-  position: relative;
-  top: 0px;
-  opacity: 1;
-  width: 100%;
-    transition: top 700ms, opacity 600ms;
-  animation:pfpDefault 800ms linear both;
-  	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
-}
-
-.slided .slider {
-  top: -275px;
-}
-body.mobile .slided .slider {
-  top: -225px;
-}
-
-.startMenuSlidingContent {
-  height: 275px;
-}
-body.mobile .startMenuSlidingContent {
-  height: 225px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Properties -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+    <meta name="description" content="arras.io, but the tanks drank milk.">
+  <meta name="robots" content="index, follow">
+   <meta name="author" content="seaguli">
+    <meta name="keywords" content="arras.io, arras, game, arras mayhem, arras moe, arrasio">
+    <meta property="og:image" content="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/appicon.png">
+  <meta property="og:site_name" content="arras-mayhem">
+  <meta property="og:image:width" content="80">
+  <meta property="og:image:height" content="80">
+  <meta property="og:type" content="website">
+  <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#b493d3">
+  <title>arras.io</title>
+    <!-- Apple Web App stuff -->
+  <link rel="apple-touch-icon" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/app.png" />
+  <link rel="apple-touch-startup-image" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splash.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-startup-image" media="(device-width: 768px)" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splashtablet.png">
+   <link rel="apple-touch-startup-image" media="(device-width: 1536px)" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splashtablet.png">
+ <link href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splash.png" media="(device-width: 375px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <!-- Windows App Pin -->
    <meta name="msapplication-TileColor" content="#b493d3">
     <meta name="msapplication-TileImage" content="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/appicon.png">
   <!-- CSS -->
@@ -274,30 +261,28 @@ function PlaySound() {
               <span data-type="changelog" onmouseover="PlaySound1()" title="More bullets than Touhou">Changelog</span>
             </div>
           </div>
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Meta Properties -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
-    <meta name="description" content="arras.io, but the tanks drank milk.">
-  <meta name="robots" content="index, follow">
-   <meta name="author" content="seaguli">
-    <meta name="keywords" content="arras.io, arras, game, arras mayhem, arras moe">
-    <meta property="og:image" content="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/arraslogo.png">
-  <meta property="og:site_name" content="arras-mayhem">
-  <meta property="og:image:width" content="80">
-  <meta property="og:image:height" content="80">
-  <title>arras.io</title>
-    <!-- Apple Web App stuff -->
-  <link rel="apple-touch-icon" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/app.png" />
-  <link rel="apple-touch-startup-image" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splash.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-
-  <link rel="apple-touch-startup-image" media="(device-width: 768px)" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splashtablet.png">
-   <link rel="apple-touch-startup-image" media="(device-width: 1536px)" href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splashtablet.png">
- <link href="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/splash.png" media="(device-width: 375px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <!-- Windows App Pin -->
-   <meta name="msapplication-TileColor" content="#b493d3">
-    <meta name="msapplication-TileImage" content="https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/arraslogo.png">
+          <div id="patchNotes" class="shadowScroll updates"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JS -->
+  <script>
+  window.onerror = function(message, source, lineno, colno, error) {
+    window.onerror = null
+    if (error) error = error.toString()
+    console.warn('The game crashed, refreshing page to recover from the error')
+    if (error == null && lineno == 0 && colno == 0) return
+    var e = JSON.stringify({
+      message: message,
+      source: source,
+      lineno: lineno,
+      colno: colno,
+      error: error
+    })
+    prompt('The game may have crashed, refresh the page to recover from the error. Error information:', e)
+  }
+  </script>
+  <script src="./bundle.js"></script>
+</body>
+</html>
