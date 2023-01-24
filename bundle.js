@@ -4756,9 +4756,9 @@
           {
 
                    visible: 1,
-            id: "Glitch-Staging",
+            id: "Glitch-Event",
             type: "ffa",
-            code: "glitch-virginia-a",
+            code: "glitch-virginia-x",
             at: p.glitch("debonair-pushy-beam")
             // featured: 1, // For Featured Status.
           },
