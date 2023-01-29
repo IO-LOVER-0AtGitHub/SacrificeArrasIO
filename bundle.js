@@ -4737,15 +4737,6 @@
             featured: 0, // For Featured Status.
           },
           {
-            visible: 1,
-            id: "Heroku-FFA",
-            type: "ffa",
-            code: "heroku-frankfurt-f",
-            at: p.heroku("arras-moe"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
             visible: 0,
             id: "Glitch-Developer",
             type: "dev",
@@ -4760,24 +4751,6 @@
             type: "ffa",
             code: "glitch-virginia-x",
             at: p.glitch("debonair-pushy-beam")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 1,
-            id: "Heroku-Event",
-            type: "main",
-            code: "heroku-virginia-x",
-            at: p.heroku("arras-mayhem"),
-             featured: 1, // For Featured Status.
-
-          },
-          {
-         
-            visible: 1,
-            id: "Repl.it-Legacy",
-            type: "legacy",
-            code: "replit-virginia-2",
-            at: p.replit("arras-mayhem-legacy.seaguli")
             // featured: 1, // For Featured Status.
           }
         ]
