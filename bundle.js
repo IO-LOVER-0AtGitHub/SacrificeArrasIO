@@ -3712,7 +3712,7 @@
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
                     "center"
                   );
-                if (z.name.includes("Seaguli"))
+                if (z.name.includes("Dev⠀"))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
@@ -3942,7 +3942,7 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("Seaguli"))
+                  if (b.label.includes("Dev⠀"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,
@@ -4587,7 +4587,6 @@
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
-        railway: a => `${a}.up.railway.app`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
       };
@@ -4670,7 +4669,7 @@
             z: "Private",
             local: "Local",
             dvi: "DVI",
-            railway: "Railway",
+
             os: "OpenShift",
             heroku: "Heroku",
             replit: "Repl.it",
@@ -4719,38 +4718,47 @@
         ],
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
-
-          {
-                           visible: 0,
-            id: "Railway-Event",
-            type: "main",
-            code: "railway-oregon-x",
-            at: p.railway("arras"),
-            featured: 0, // For Featured Status.
-          },
-                    {
-                           visible: 0,
-            id: "Render-4TDM",
-            type: "4tdm",
-            code: "render-frankfurt-4",
-            at: p.render("arras-mayhem2"),
-            featured: 0, // For Featured Status.
-          },
           {
             visible: 0,
             id: "Glitch-Developer",
             type: "dev",
             code: "glitch-virginia-f",
-            at: p.glitch("arrasio5")
-            // featured: 1, // For Featured Status.
+            at: p.glitch("arrasio5"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
           },
           {
 
-                   visible: 1,
-            id: "Glitch-Event",
+            visible: 1,
+            id: "Glitch-Domination",
+            type: "dominaton",
+            code: "glitch-virginia-d",
+            at: p.glitch("jagged-petal-parenthesis")
+            // featured: 1, // For Featured Status.
+          },
+          {
+                   visible: 0,
+            id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
-            at: p.glitch("debonair-pushy-beam")
+            at: p.glitch("arras-mayhem-webserver")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 1,
+            id: "Heroku-Event",
+            type: "main",
+            code: "heroku-virginia-x",
+            at: p.heroku("arras-mayhem"),
+             featured: 1, // For Featured Status.
+          },
+          {
+
+            visible: 1,
+            id: "Repl.it-Legacy",
+            type: "legacy",
+            code: "replit-virginia-2",
+            at: p.replit("arras-mayhem-legacy.seaguli")
             // featured: 1, // For Featured Status.
           }
         ]
