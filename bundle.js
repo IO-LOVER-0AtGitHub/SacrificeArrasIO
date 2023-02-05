@@ -2507,7 +2507,7 @@
                 b.finalKillers = [];
                 for (d = 0; d < c[5]; d++) b.finalKillers.push(c[6 + d]);
                 b.died = !0;
-                b.respawnOn = Date.now() + (ia ? 3e3 : 2e3);
+                b.respawnOn = Date.now() + (ia ? 0e3 : 0e3);
 
               case "K":
                 b.isInGame = !1;
@@ -4358,7 +4358,7 @@
           var c = [
             [
               "Want a taste of Testbed B without a token? Join the Event server!",
-              "Stuck on connecting? Refresh the page, or try another server."
+              "Stuck on connecting? Refresh the page, and try another server."
             ],
             [
               "Press the Backslash '/' key to chat!",
@@ -4366,11 +4366,11 @@
               "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
               "All tanks have up to 10x reload!",
-              'If you have a valid token, use the name "Tester" to spawn as Testbed!',
+              'If you have a valid token, use the name "Tester" (no quotation marks) to spawn as Testbed!',
               "Press 'N' to level up."
             ],
             [
-              "Avoid upgrading the reload stat if you wish for a smooth game!",
+              "Have you checked out our other project, Ikimashou?",
               "Have Fun!",
               "Good Luck!"
             ]
