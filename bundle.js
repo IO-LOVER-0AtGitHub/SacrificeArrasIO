@@ -22,7 +22,7 @@
       }
       var smallaudio2 = new Audio();
       smallaudio2.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/socket.wav";
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/error.ogg";
       function PlaySound211() {
         smallaudio2.play();
       }
@@ -4358,7 +4358,7 @@
           var c = [
             [
               "Want a taste of Testbed B without a token? Join the Event server!",
-              "Stuck on connecting? Refresh the page, and try another server."
+              "Stuck on connecting? Refresh the page, or try another server."
             ],
             [
               "Press the Backslash '/' key to chat!",
@@ -4366,11 +4366,11 @@
               "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
               "All tanks have up to 10x reload!",
-              'If you have a valid token, use the name "Tester" (no quotation marks) to spawn as Testbed!',
+              'If you have a valid token, use the name "Tester" to spawn as Testbed!',
               "Press 'N' to level up."
             ],
             [
-              "Have you checked out our other project, Ikimashou?",
+              "Avoid upgrading the reload stat if you wish for a smooth game!",
               "Have Fun!",
               "Good Luck!"
             ]
@@ -4587,6 +4587,8 @@
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
+        
+        railway: a => `${a}.up.railway.app`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
       };
@@ -4676,6 +4678,7 @@
             glitch: "Glitch",
             linode: "Linode",
             vultr: "Vultr",
+            railway: "Railway",
             render: "Render",
             buyvm: "BuyVM",
             extravm: "ExtraVM",
@@ -4686,9 +4689,9 @@
             unknown: ["Unknown", null],
             local: ["Local", null],
             worldwide: ["Worldwide", null],
-            virginia: ["US East", -4],
-            montreal: ["US East", -4],
-            oregon: ["US West", -7],
+            virginia: ["US East", -7],
+            montreal: ["US East", -7],
+                                    oregon: ["US West", -4],
             frankfurt: ["Europe", 2],
             sv: ["US West", -7],
             la: ["US West", -7],
@@ -4719,6 +4722,14 @@
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
           {
+                    visible: 1,
+            id: "Railway-Event",
+            type: "main",
+            code: "railway-oregon-x",
+            at: p.railway("arras"),
+             featured: 1, // For Featured Status.
+          },
+          {
             visible: 0,
             id: "Glitch-Developer",
             type: "dev",
@@ -4728,7 +4739,15 @@
             featured: 0 // For Featured Status.
           },
           {
-
+            visible: 0,
+            id: "Render-Developer",
+            type: "ffan",
+            code: "render-frankfurt-f",
+            at: p.render("arras-mayhem2"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+          {
             visible: 1,
             id: "Glitch-Domination",
             type: "dominaton",
@@ -4741,7 +4760,7 @@
             id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
-            at: p.glitch("arras-mayhem-webserver")
+            at: p.glitch("dandy-woolly-text")
             // featured: 1, // For Featured Status.
           },
           {
