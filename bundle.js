@@ -22,7 +22,7 @@
       }
       var smallaudio2 = new Audio();
       smallaudio2.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/error.ogg";
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/socket.wav";
       function PlaySound211() {
         smallaudio2.play();
       }
