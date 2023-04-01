@@ -1,9 +1,7 @@
-# arras-mayhem is unmaintained as of November 28, 2022
--The Heroku servers are no longer available. Here are the legacy servers: 
--The glitch server will remain up, but it’s quite laggy and a second event server hosted on Railway is already up and visible on www.arras-mayhem.glitch.me 
--A second glitch event server is now up as well.
-
--Thank you all for 2 and a half years of arras mayhem! If you you want to resume development/host the game, add me on discord (SF) Seagull#2224
+# Servers have been optimized and will run a little bit faster
+- And no, that's not april fools
+- Also, the render server is now permanent and changed into a 4TDM server.
+- Glitch servers will no longer go down at the end of the month.
 # The future of arras-mayhem
 - Hey, it's me, umineko, the developer of arras-mayhem. It's hard to believe that arras-mayhem is 2 and a half years old now! Thank you all for the experiences!
 - Heroku, the hosting provider for the servers is ceasing their free plan by the end of November 2022, which means that arras-mayhem will go down with it. 

@@ -1274,7 +1274,7 @@ function PlaySound() {
   }
   </script>
 <script type="text/javascript">
-     //just some code to make the sound work
+          //just some code to make the sound work
       var clicksound = new Audio();
       clicksound.src =
         "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg";
@@ -3783,7 +3783,7 @@ function PlaySound() {
                 b.finalKillers = [];
                 for (d = 0; d < c[5]; d++) b.finalKillers.push(c[6 + d]);
                 b.died = !0;
-                b.respawnOn = Date.now() + (ia ? 3e3 : 2e3);
+                b.respawnOn = Date.now() + (ia ? 0e3 : 0e3);
 
               case "K":
                 b.isInGame = !1;
@@ -5863,6 +5863,8 @@ function PlaySound() {
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
+        
+        railway: a => `${a}.up.railway.app`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
       };
@@ -5952,6 +5954,7 @@ function PlaySound() {
             glitch: "Glitch",
             linode: "Linode",
             vultr: "Vultr",
+            railway: "Railway",
             render: "Render",
             buyvm: "BuyVM",
             extravm: "ExtraVM",
@@ -5962,9 +5965,9 @@ function PlaySound() {
             unknown: ["Unknown", null],
             local: ["Local", null],
             worldwide: ["Worldwide", null],
-            virginia: ["US East", -4],
-            montreal: ["US East", -4],
-            oregon: ["US West", -7],
+            virginia: ["US East", -7],
+            montreal: ["US East", -7],
+                                    oregon: ["US West", -4],
             frankfurt: ["Europe", 2],
             sv: ["US West", -7],
             la: ["US West", -7],
@@ -5995,6 +5998,14 @@ function PlaySound() {
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
           {
+                    visible: 1,
+            id: "Railway-Event",
+            type: "main",
+            code: "railway-oregon-x",
+            at: p.railway("arras"),
+             featured: 1, // For Featured Status.
+          },
+          {
             visible: 0,
             id: "Glitch-Developer",
             type: "dev",
@@ -6004,7 +6015,15 @@ function PlaySound() {
             featured: 0 // For Featured Status.
           },
           {
-
+            visible: 0,
+            id: "Render-Developer",
+            type: "ffan",
+            code: "render-frankfurt-4",
+            at: p.render("arras-mayhem2"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
+          {
             visible: 1,
             id: "Glitch-Domination",
             type: "dominaton",
@@ -6017,8 +6036,8 @@ function PlaySound() {
             id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
-            at: p.glitch("arras-mayhem-webserver")
-            // featured: 1, // For Featured Status.
+            at: p.glitch("dandy-woolly-text"),
+            featured: 1 // For Featured Status.
           },
           {
             visible: 1,

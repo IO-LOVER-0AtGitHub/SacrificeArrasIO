@@ -4742,7 +4742,7 @@
             visible: 0,
             id: "Render-Developer",
             type: "ffan",
-            code: "render-frankfurt-f",
+            code: "render-frankfurt-4",
             at: p.render("arras-mayhem2"),
             prefer: !0,
             featured: 0 // For Featured Status.
@@ -4760,8 +4760,8 @@
             id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
-            at: p.glitch("dandy-woolly-text")
-            // featured: 1, // For Featured Status.
+            at: p.glitch("dandy-woolly-text"),
+            featured: 1 // For Featured Status.
           },
           {
             visible: 1,
