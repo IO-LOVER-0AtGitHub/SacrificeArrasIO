@@ -4583,11 +4583,11 @@
       const p = {
         openshift: (a, e) =>
           `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
+        flyio: a => `${a}.fly.dev`,
         glitch: a => `${a}.glitch.me`,
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
-        flyio: a => `${a}.fly.dev`,
         railway: a => `${a}.up.railway.app`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
@@ -4674,11 +4674,11 @@
 
             os: "OpenShift",
             heroku: "Heroku",
+            flyio: "Fly.io",
             replit: "Repl.it",
             glitch: "Glitch",
             linode: "Linode",
             vultr: "Vultr",
-            flyio: "Fly.io",
             railway: "Railway",
             render: "Render",
             buyvm: "BuyVM",
@@ -4730,14 +4730,7 @@
             at: p.railway("arras"),
              featured: 1, // For Featured Status.
           },
-                    {
-                    visible: 0,
-            id: "Fly-Event",
-            type: "main",
-            code: "flyio-oregon-x",
-            at: p.flyio("arras"),
-             featured: 1, // For Featured Status.
-          },
+
           {
             visible: 0,
             id: "Glitch-Developer",
@@ -4746,6 +4739,15 @@
             at: p.glitch("arrasio5"),
             prefer: !0,
             featured: 0 // For Featured Status.
+                                 },
+                                {
+                    visible: 0,
+            id: "Fly-Event",
+            type: "main",
+            code: "flyio-montreal-x",
+            at: p.flyio("arras"),
+             featured: 1, // For Featured Status.
+
           },
           {
             visible: 0,
@@ -4755,6 +4757,7 @@
             at: p.render("arras-mayhem2"),
             prefer: !0,
             featured: 0 // For Featured Status.
+             
           },
           {
             visible: 1,
@@ -4770,7 +4773,7 @@
             type: "ffa",
             code: "glitch-virginia-x",
             at: p.glitch("dandy-woolly-text"),
-            featured: 1 // For Featured Status.
+            featured: 0 // For Featured Status.
           },
           {
             visible: 1,
@@ -4779,6 +4782,7 @@
             code: "heroku-virginia-x",
             at: p.heroku("arras-mayhem"),
              featured: 1, // For Featured Status.
+
           },
           {
 
