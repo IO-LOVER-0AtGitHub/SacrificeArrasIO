@@ -4730,7 +4730,6 @@
             at: p.railway("arras"),
              featured: 1, // For Featured Status.
           },
-
           {
             visible: 0,
             id: "Glitch-Developer",
@@ -4744,7 +4743,7 @@
                     visible: 0,
             id: "Fly-Event",
             type: "main",
-            code: "flyio-montreale-x",
+            code: "flyio-montreal-x",
             at: p.flyio("arras"),
              featured: 1, // For Featured Status.
 
@@ -4768,7 +4767,7 @@
             // featured: 1, // For Featured Status.
           },
           {
-                   visible: 0,
+                   visible: 1,
             id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
