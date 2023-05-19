@@ -4587,7 +4587,7 @@
         replit: a => `${a}.repl.co`,
         render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
-        
+        flyio: a => `${a}.fly.dev`,
         railway: a => `${a}.up.railway.app`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
@@ -4678,6 +4678,7 @@
             glitch: "Glitch",
             linode: "Linode",
             vultr: "Vultr",
+            flyio: "Fly.io",
             railway: "Railway",
             render: "Render",
             buyvm: "BuyVM",
@@ -4727,6 +4728,14 @@
             type: "main",
             code: "railway-oregon-x",
             at: p.railway("arras"),
+             featured: 1, // For Featured Status.
+          },
+                    {
+                    visible: 0,
+            id: "Fly-Event",
+            type: "main",
+            code: "flyio-oregon-x",
+            at: p.flyio("arras"),
              featured: 1, // For Featured Status.
           },
           {
