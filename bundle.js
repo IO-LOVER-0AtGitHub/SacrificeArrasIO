@@ -4767,7 +4767,7 @@
             // featured: 1, // For Featured Status.
           },
           {
-                   visible: 1,
+                   visible: 0,
             id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
