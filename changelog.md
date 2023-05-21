@@ -1,7 +1,7 @@
 # Update - New server!
 - A new server hosted on fly.io has been added.
 - It is hosted at various locations throughout the world, and is the fastest server yet! 
-- We encourage you to use it as part of testing, it will replace the glitch event server in the future.
+- We encourage you to use it as part of testing.
 # Servers have been optimized and will run a little bit faster
 - Also, the render server is now permanent and changed into a 4TDM server.
 - Glitch servers will no longer go down at the end of the month.
