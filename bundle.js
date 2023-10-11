@@ -4731,7 +4731,7 @@
              featured: 1, // For Featured Status.
           },
           {
-            visible: 0,
+            visible: 1,
             id: "Glitch-Developer",
             type: "dev",
             code: "glitch-virginia-f",
@@ -4740,7 +4740,7 @@
             featured: 0 // For Featured Status.
                                  },
                                 {
-                    visible: 0,
+                    visible: 1,
             id: "Flyio-Event",
             type: "main",
             code: "flyio-worldwide-x",
@@ -4767,7 +4767,7 @@
             // featured: 1, // For Featured Status.
           },
           {
-                   visible: 0,
+                   visible: 1,
             id: "Glitch-Staging",
             type: "ffa",
             code: "glitch-virginia-x",
@@ -4791,7 +4791,16 @@
             code: "replit-virginia-2",
             at: p.replit("arras-mayhem-legacy.seaguli")
             // featured: 1, // For Featured Status.
-          }
+          },
+           {
+                   visible: 0,
+            id: "Glitch-Staging",
+            type: "game",
+            code: "glitch-virginia-4",
+            at: p.glitch("sacrifice4tdm"),
+            prefer: !0,
+            featured: 0 // For Featured Status.
+          },
         ]
           .map((a, e) => ({ data: a, i: e }))
           .sort((a, e) =>
