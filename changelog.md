@@ -51,7 +51,7 @@
 - Shocker - Branches off Launcher
 - Wipeout - Branches off Shotgun
 # Update
-- Added Crossbow, branches off Rifle and Artillery
+- Added Crossbow, branches off R
 - Added the Ragnarok Celestial to Testbed B
 # Update
 - Added 3 new tanks
